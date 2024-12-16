@@ -1,0 +1,1 @@
+select * from {{ref('bond_offering_products__c')}}

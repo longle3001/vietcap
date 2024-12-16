@@ -1,0 +1,33 @@
+version: 2
+
+sources:
+  - name: pg
+    schema: public
+    tables:
+      - name: users_2
+        identifier: users_2
+        description: "this is the description of pg2_users"
+      - name: users_info
+        identifier: users_info
+        description: "this is the description pg2_users_info"
+      - name: salesforce_data
+        identifier: salesforce_data
+        description: "this is the description salesforce_data"
+      - name: test_incremental
+        identifier: test_incremental
+        description: "this is the description salesforce_data"
+
+
+
+      - name: agency_info__c
+        identifier: agency_info__c
+        description: ""
+      - name: customer_info__c
+        identifier: customer_info__c
+        description: ""
+      - name: market_stock_data__c
+        identifier: market_stock_data__c
+        description: ""
+      - name: bond_publishers__c
+        identifier: bond_publishers__c
+        description: ""
